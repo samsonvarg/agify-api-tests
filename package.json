@@ -1,0 +1,23 @@
+{
+  "name": "agify-api-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "BDD scenarios and step definitions to test agify.io API",
+  "dependencies": {},
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@types/chai": "^5.0.1",
+    "@types/node": "^22.10.1",
+    "@types/supertest": "^6.0.2",
+    "chai": "^5.1.2",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
